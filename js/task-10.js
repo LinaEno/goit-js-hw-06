@@ -30,5 +30,5 @@ refs.createBtn.addEventListener('click', () => {
 
 refs.destroyBtn.addEventListener('click', () => {
   refs.boxes.remove()
-  refs.input.innerHTML = ''
+  refs.input.value = ''
 })
